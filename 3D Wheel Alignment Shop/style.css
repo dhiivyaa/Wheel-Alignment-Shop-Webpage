@@ -1,0 +1,168 @@
+body,h2{
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.landing{
+    background-image:url('images/bg image.jpg');
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    color:white;
+}
+header a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    min-width:120px;
+    margin-left:35px;
+}
+header{
+    display: flex;
+    padding:5px;
+    flex-wrap:wrap;
+    row-gap:12px;
+}
+
+header h2 i, nav a i{
+    margin-right:10px;
+}
+
+
+#logo{
+    flex:3;
+    font-size:30px;
+    font-weight: bold;
+}
+
+nav{
+    flex:2;
+    display: flex;
+    align-items:center;
+}
+
+nav a{
+    flex:1;
+}
+
+nav a:hover{
+    color:black;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    height:150x;
+    justify-content: center;
+    padding:100px;
+
+}
+
+.tag1{
+    color: white;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.tag2{
+    color:white;
+    font-size: 25px;
+}
+
+.tag3{
+    color:white;
+    font-size: 20px;
+}
+
+.main div{
+    margin-top:10px; 
+}
+
+.main button{
+    width:150px;
+    margin-top:10px;
+    padding:5px;
+    border-radius: 10px;
+    background-color: white;
+    border:black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.providedservices{
+    display:grid;
+    background: linear-gradient(to right,rgb(169, 68, 68),rgb(31, 128, 225));
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    color:white;
+    padding:3px;
+    font-size: 16px;
+    width:100%;
+}
+
+
+#serviceheading, #localheading{
+    background: linear-gradient(to right,rgb(169, 68, 68),rgb(31, 128, 225));
+    color:white;
+    display:flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.location{
+    display:flex;
+    background: linear-gradient(to right,rgb(169, 68, 68),rgb(31, 128, 225));
+    color:white;
+    margin-bottom:0px;
+    flex-wrap:wrap;
+}
+
+.location div{
+    flex:1;
+    padding:15px;
+    min-width:220px;
+}
+th{
+    padding:10px;
+    font-weight: bold;
+}
+
+#localheading{
+    padding-top:20px;
+}
+
+.providedservices{
+    width:100%;
+    padding:10px;
+    }
+
+.services tr{
+     display:flex;
+     justify-content: center;
+     margin-top:15px;
+}
+
+.services td:nth-child(1){
+    flex:2;
+    justify-self:left;
+}
+
+.services td:nth-child(2){
+    justify-self:right;
+    flex:1;
+}
+
+.table2{
+    grid-row:span 2;
+    margin:10px;
+}
+
+tr, td{
+    border:2px solid white;
+}
+footer{
+    background:linear-gradient(to right,rgb(31, 128, 225),rgb(169, 68, 68));
+    padding:10px 10px;
+}
+#copyright{
+    color:white;
+}
